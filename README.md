@@ -1,4 +1,4 @@
-sfToDoList
+sfToDoList[![Stories in Ready](https://badge.waffle.io/jjbernal/sfToDoList.png?label=ready&title=Ready)](http://waffle.io/jjbernal/sfToDoList)
 ==========
 
 A Symfony project to manage TODO lists.
