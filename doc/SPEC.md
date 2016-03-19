@@ -5,7 +5,11 @@ Functional Specification
 
 Juan José Bernal Rodríguez
 
-Last Updated: March, 18th 2016
+Last Updated: March, 20th 2016
+
+Disclaimer
+--
+This specification is by no means complete, and will be updated to reflect the state of the product.
 
 Overview
 --
@@ -69,3 +73,11 @@ method: POST
 
 Screen design
 --
+These are just quick mockups for reference.
+
+### Empty list
+![Empty list image](images/empty_list.png)
+### Simple form for adding a task
+![Empty list image](images/simple_form.png)
+### Complete form for adding a task
+![Empty list image](images/complete_form.png)
