@@ -52,9 +52,9 @@ class Task
     /**
      * @var int
      *
-     * @ORM\Column(name="weight", type="integer", nullable=true, unique=true)
+     * @ORM\Column(name="position", type="integer", nullable=true, unique=true)
      */
-    private $weight;
+    private $position;
 
 
     /**
@@ -164,27 +164,26 @@ class Task
     }
 
     /**
-     * Set weight
+     * Set position
      *
-     * @param integer $weight
+     * @param integer $position
      *
      * @return Task
      */
-    public function setWeight($weight)
+    public function setPosition($position)
     {
-        $this->weight = $weight;
+        $this->position = $position;
 
         return $this;
     }
 
     /**
-     * Get weight
+     * Get position
      *
      * @return int
      */
-    public function getWeight()
+    public function getPosition()
     {
-        return $this->weight;
+        return $this->position;
     }
 }
-

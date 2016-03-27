@@ -22,7 +22,7 @@ Users of the app are able to **view** their TODO lists, **add** tasks, **modify*
 
 >### Technical note
 To be able to hide tasks instead of deleting them, there is a boolean **complete** field that is set to *false* when the task has been ticked off. There is also implicit an **id** unique for each task.
-In order to reorder tasks there is a numeric **order** field that holds the current order of the task in the TODO list.
+In order to reorder tasks there is a numeric **position** field that holds the current order of the task in the TODO list.
 
 Main features
 --
@@ -78,6 +78,6 @@ These are just quick mockups for reference.
 ### Empty list
 ![Empty list image](images/empty_list.png)
 ### Simple form for adding a task
-![Empty list image](images/simple_form.png)
+![Simple form image](images/simple_form.png)
 ### Complete form for adding a task
-![Empty list image](images/complete_form.png)
+![Complete form image](images/complete_form.png)
