@@ -6,7 +6,7 @@ A Symfony project to manage TODO lists.
 Requirements:
 --
 * PHP 5.3 and up.
-* Database: to be determined.
+* Database: SQLite.
 * Check if your system meets the software requirements for Symfony by browsing http://localhost:8000/sfcheck.
 
 How to run:
